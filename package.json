@@ -15,5 +15,3 @@
     "tailwindcss": "^3.4.12"
   }
 }
-
-npx tailwindcss -i input.css -o ./dist/output.css --watch
