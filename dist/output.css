@@ -826,32 +826,6 @@ video {
   color: hsl(202 75% 79% / var(--tw-text-opacity));
 }
 
-@media (min-width: 1020px) {
-  .bg-hero {
-    width: 2000px;
-    heigth: 300px;
-    left: 30%;
-    position: absolute;
-    top: 13rem;
-    border-top-left-radius: 9999px;
-    border-bottom-left-radius: 9999px;
-    --tw-bg-opacity: 1;
-    background-color: hsl(202 75% 79% / var(--tw-bg-opacity));
-  }
-
-  .bg-tabs {
-    width: 2000px;
-    heigth: 300px;
-    right: 60%;
-    position: absolute;
-    top: 15rem;
-    border-top-right-radius: 9999px;
-    border-bottom-right-radius: 9999px;
-    --tw-bg-opacity: 1;
-    background-color: hsl(202 75% 79% / var(--tw-bg-opacity));
-  }
-}
-
 .hover\:text-lightBlue:hover {
   --tw-text-opacity: 1;
   color: hsl(202 75% 79% / var(--tw-text-opacity));
@@ -953,5 +927,4 @@ video {
     top: 0px;
   }
 }
-
 

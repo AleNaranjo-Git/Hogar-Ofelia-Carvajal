@@ -2,20 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-@media screen(lg) {
-    .bg-hero {
-        width: 2000px;
-        heigth: 300px;
-        left: 30%;
-        @apply absolute rounded-l-full top-52 bg-lightBlue;
-    }
-
-    .bg-tabs {
-        width: 2000px;
-        heigth: 300px;
-        right: 60%;
-        @apply absolute rounded-r-full top-60 bg-lightBlue;
-    }
-}
-
-
