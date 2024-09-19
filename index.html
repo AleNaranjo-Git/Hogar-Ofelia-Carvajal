@@ -14,9 +14,67 @@
     />
 
     <title>Asociación Hogar Ofelia Carvajal</title>
-    <link rel="icon" type="image/jpg" href="./assets/images/Logo-Hogar.WEbP" />
+    <link rel="icon" type="image/jpg" href="./assets/images/Logo-Hogar.jpg" />
   </head>
-  <body>
-    <h1 class="text-3xl">Simple Tailwaind Starter</h1>
+
+  <body class="overflow-x-hidden">
+    <nav class="container relative mx-auto p-6">
+      <!--Flex container for nav items-->
+      <div class="flex items-center justify-between space-x-20 my-6">
+        <!--Logo-->
+        <div class="z-30">
+          <img src="/assets/images/Logo-Hogar.jpg" alt="" />
+        </div>
+        <!--Menu items-->
+        <div
+          class="hidden items-center space-x-10 uppercase text-grayishBlue md:flex"
+        >
+          <a href="#nosotros" class="tracking-widest hover:text-lightBlue">
+            Nosotros
+          </a>
+          <a href="#servicios" class="tracking-widest hover:text-lightBlue">
+            Servicios
+          </a>
+          <a href="#instalaciones" class="tracking-widest hover:text-lightBlue">
+            Instalaciones
+          </a>
+          <a href="#contacto" class="tracking-widest hover:text-lightBlue">
+            Contacto
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!--Hero Section-->
+    <section id="hero">
+      <!--Container for image and contenido-->
+      <div
+        class="container flex flex-col-reverse mx-auto p-6 lg:flex-row lg:mb-0"
+      >
+        <!--Content-->
+        <div class="flex flex-col space-y-10 lg:mt-16 lg:w-1/2">
+          <h1
+            class="text-3xl font-semibold text-center lg:text-6xl lg:text-left"
+          >
+            Asociación Hogar de Ancianos Ofelia Carvajal
+          </h1>
+          <p
+            class="max-w-md mx-auto  text-lg text-center text-gray-400 lg:text-2xl lg:text-left lg:mt-0 lg:mx-0"
+          >
+            Brindar bienestar integral y calidad de vida a los Adultos Mayores
+            que forman parte de la Asociación Hogar de Ancianos Ofelia Carvajal
+            de Naranjo por medio de actividades recreativas, artísticas,
+            culturales y deportivas
+          </p>
+        </div>
+        <!--image-->
+        <div class="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
+          <div class="hidden lg:block w-screen h-3/5 left-1/3 absolute rounded-l-full top-52 bg-lightBlue"></div>
+          <img
+            src="/assets/images/Stock1.webp" alt="" class="relative z-10 lg:top-24 xl:top-0 overflow-x-visible mb-3"
+          />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
