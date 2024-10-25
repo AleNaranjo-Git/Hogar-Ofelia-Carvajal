@@ -4,6 +4,11 @@ const btn = document.getElementById('menu-btn')
 const menu = document.getElementById('menu')
 const logo = document.getElementById('logo')
 
+//Contact form
+const dataName = document.querySelector('#dataName');
+const dataMessage = document.querySelector('#dataMessage');
+const btnSubmit = document.querySelector('#btnSubmit');
+
 //Tabs menu event listener
 tabs.forEach((tab) => tab.addEventListener('click', onTabClick))
 
@@ -42,4 +47,12 @@ function navToggle() {
   } else {
     logo.setAttribute('src', './images/logo-bookmark.svg')
   }
+}
+
+//Logic for whatsapp Message
+var mensaje;
+
+function submit() {
+  const message = `https://api.whatsapp.com/send?phone=50670518445&text=Hola%20soy%20${dataName.value}%20${dataMessage.value}`;
+  btnSubmit.href = message;
 }
