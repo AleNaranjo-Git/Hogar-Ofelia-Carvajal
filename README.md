@@ -24,7 +24,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these steps.
 
 1. Clone the repo
    ```sh
@@ -38,7 +38,8 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    npm run watch
    ```
-4. Check the Website
-5. When you finish you press `CTRL + C` and type `s` to stop the script
+4. To check the page normally would be on `http://localhost:3000` but
+   you can also use `Live Preview` or `Live Server` extensions on Visual Studio Code.
+6. When you finish you press `CTRL + C` and type `s` to stop the script
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
