@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/AleNaranjo-Git/Hogar-Ofelia-Carvajal">
-    <img src="/assets/images/Logo-Hogar.jpg" alt="Logo">
+    <img src="/assets/images/logo.svg" alt="Logo">
   </a>
 
 <h3 align="center">Elderly Care Home Website Project</h3>
@@ -41,5 +41,3 @@ To get a local copy up and running follow these steps.
 4. To check the page normally would be on `http://localhost:3000` but
    you can also use `Live Preview` or `Live Server` extensions on Visual Studio Code.
 6. When you finish you press `CTRL + C` and type `s` to stop the script
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
