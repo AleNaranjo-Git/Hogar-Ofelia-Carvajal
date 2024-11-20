@@ -1018,6 +1018,11 @@ video {
   border-color: hsl(169 48% 80% / var(--tw-border-opacity));
 }
 
+.border-lightBlue {
+  --tw-border-opacity: 1;
+  border-color: hsl(202 75% 79% / var(--tw-border-opacity));
+}
+
 .bg-\[hsla\(0\2c 0\%\2c 100\%\2c 0\.8\)\] {
   background-color: hsla(0,0%,100%,0.8);
 }
